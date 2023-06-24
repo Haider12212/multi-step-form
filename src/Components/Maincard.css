@@ -10,7 +10,7 @@
     display: grid;
     grid-template-columns: auto auto;
 }
-@media (max-width: 375px) {
+@media (max-width: 420px) {
     .mainCard{
         display: flex;
         flex-direction: column;

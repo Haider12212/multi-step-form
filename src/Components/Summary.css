@@ -63,7 +63,7 @@
   margin-top: 0;
   color: hsl(231, 11%, 63%);
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 420px) {
   .card-fourth {
     height: auto;
     width: auto;

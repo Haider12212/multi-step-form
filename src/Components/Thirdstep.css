@@ -133,7 +133,7 @@ textarea {
   .primary-button:hover {
   background-color: hsl(213, 96%, 40%);
   }
-  @media screen and (max-width: 375px) {
+  @media screen and (max-width: 420px) {
     .card-third {
       height: auto;
       width: auto;

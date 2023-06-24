@@ -76,7 +76,7 @@
   color: hsl(0, 0%, 100%) !important;
   font-size: 1.5rem;
 }
-@media (max-width: 375px) {
+@media (max-width: 420px) {
   .container {
     align-items: center;
     justify-content: space-around;
