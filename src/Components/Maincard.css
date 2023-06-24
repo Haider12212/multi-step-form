@@ -1,0 +1,24 @@
+.mainCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #ffffff; 
+}
+.mainCard-grid{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+@media (max-width: 375px) {
+    .mainCard{
+        display: flex;
+        flex-direction: column;
+        background-image: url(./images/bg-sidebar-mobile.svg);
+        background-repeat: no-repeat;
+    }
+    .mainCard-grid{
+        grid-template-columns: auto;
+    }
+}
+  

@@ -1,0 +1,101 @@
+.card-fourth {
+  height: 487.583px;
+  width: 511.183px;
+  background-color: #ffffff;
+  padding: 50px;
+  text-align: left;
+}
+.summary-section-main {
+  background-color: hsl(217, 100%, 97%);
+  padding: 20px;
+  border-radius: 8px;
+}
+.summary-section-total{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 20px;
+    color: hsl(243, 100%, 62%);
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+.total-cost{
+    font-weight: 400;
+    font-size: 1.2rem;
+    margin-top: 0;
+    color: hsl(231, 11%, 63%);
+}
+.selected-package {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid hsl(229, 24%, 87%);
+}
+.package-Name {
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-top: 0;
+  color: hsl(213, 96%, 18%);
+}
+.package-price {
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin-top: 0;
+  color: hsl(213, 96%, 18%);
+  margin-bottom: 15px;
+}
+.summary-section-service{
+    display: flex;
+    flex-direction: column;
+}
+.selected-service{
+    display: flex;
+    justify-content: space-between;
+}
+.service-name {
+  font-weight: 400;
+  font-size: 1.2rem;
+  margin-top: 0;
+  color: hsl(231, 11%, 63%);
+}
+.service-price {
+  font-weight: 400;
+  font-size: 1rem;
+  margin-top: 0;
+  color: hsl(231, 11%, 63%);
+}
+@media screen and (max-width: 375px) {
+  .card-fourth {
+    height: auto;
+    width: auto;
+    padding: 20px;
+  }
+  
+  .summary-section-total {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 1rem;
+  }
+  
+  .total-cost {
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+  }
+  
+  .selected-package,
+  .selected-service {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 0;
+    border-bottom: none;
+  }
+  
+  .package-Name,
+  .package-price,
+  .service-name,
+  .service-price {
+    font-size: 1rem;
+    margin-bottom: 5px;
+  }
+}
